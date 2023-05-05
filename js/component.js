@@ -31,6 +31,7 @@ class card extends HTMLElement {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
         }
         .card{
             width: 350px;
@@ -39,6 +40,7 @@ class card extends HTMLElement {
             grid-template-rows: 10% 50% 40%;
             place-items: center;
             border: 5px solid #1ed5a9;
+            background: rgb(3,37,65 );
             border-radius: 15px;
         }
         .card__title{
@@ -51,9 +53,11 @@ class card extends HTMLElement {
         .card__text{
             color:#1ed5a9  ;
             font-size: 0.8rem;
-            font-weight: 600;
+            font-weight: 700;
             padding: 5px;
             text-align: center;
+            
+        
         }
         .card__image{
             height: 250px;

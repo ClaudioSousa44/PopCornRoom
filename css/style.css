@@ -14,13 +14,13 @@ body{
 
 
 header{
-    background-color: #000;
+    background-color: rgb(3,37,65 );
     width: 20%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 5px solid #c0fecf;
+    border: 2px solid rgb(3,37,65 );
 }
 
 .logo-container{
@@ -32,7 +32,7 @@ header{
 }
 
 .logo-title{
-        color:#1ed5a9 ;
+        color:rgb(30,213,169) ;
         font-size: 2.5rem;
         font-weight: 800;
 }
@@ -45,24 +45,24 @@ nav{
 }
 
 nav a{
-    color: #000;
+    color: rgb(3,37,65 );
     font-size: 2rem;
     padding: 5px;
-    background-color: #c0fecf; 
+    background-color: rgb(30,213,169); 
     border-radius: 10px;
     width: 150px ;
     text-align: center;
 }
 
 nav a:hover{
-    color: #c0fecf;
-    border: 1px solid #c0fecf;
-    background-color: #000;
+    color: rgb(30,213,169);
+    border: 1px solid rgb(30,213,169);
+    background-color: rgb(3,37,65 );
 }
 
 .credits-container{
-    background-color: #c0fecf;
-    color: #032541;
+    /* background-color: cyan; */
+    color: rgb(30,213,169);
     text-align: center;
     font-size: 1rem;
 }
@@ -84,7 +84,7 @@ main{
     background-image: url(../images/foto_home3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: #000;
 }
 
 .home-title{
@@ -116,12 +116,16 @@ main{
 .filmes-title{
     color: #1ed5a9;
     font-size: 3rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .card-container{
     /* display: grid;
     grid-template-columns: repeat(2, mimax(350px, 1fr)) ; */
     display: flex;
+    justify-content: center;
+    
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
