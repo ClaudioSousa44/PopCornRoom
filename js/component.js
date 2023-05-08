@@ -2,7 +2,7 @@ class card extends HTMLElement {
     constructor(){
         super()
          this.shadow = this.attachShadow({mode:'open'})
-         this.nome = 'Nome do aluno'
+         this.nome = 'Nome do filme'
          this.foto = null
          this.descricao = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
          
@@ -89,3 +89,6 @@ class card extends HTMLElement {
 }
 
 customElements.define('card-filme', card)
+
+
+

@@ -6,7 +6,6 @@ import { getFilmes } from './main.js'
 const filmes = await getFilmes()
 
 
-
 const criarCard = (filme) => {
 
     const card = document.createElement('card-filme')
@@ -18,9 +17,7 @@ const criarCard = (filme) => {
         card.descricao = filme.overview
     }
    
-
     return card
-
 
 }
 
