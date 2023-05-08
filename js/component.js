@@ -37,12 +37,29 @@ class card extends HTMLElement {
             width: 350px;
             height: 550px;
             display: grid;
-            grid-template-rows: 10% 50% 40%;
+            grid-template-rows: 20% 80% ;
             place-items: center;
             border: 5px solid #1ed5a9;
             background: rgb(3,37,65 );
             border-radius: 15px;
         }
+
+        .card:hover{
+
+        
+
+            .card__image{
+                display: none;
+            }
+            .card__text{
+                display:block;
+                height: 100%;
+                width: 100%;
+                text-align: center;
+            }
+            
+        }
+        
         .card__title{
             color:#1ed5a9  ;
             font-size: 1.5rem;
@@ -51,11 +68,12 @@ class card extends HTMLElement {
             padding: 5px;
         }
         .card__text{
+            display: none;
             color:#1ed5a9  ;
-            font-size: 0.8rem;
+            font-size: 1rem;
             font-weight: 700;
             padding: 5px;
-            text-align: center;
+            
             
         
         }

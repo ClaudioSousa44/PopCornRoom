@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5ed2d43b7d.js" crossorigin="anonymous"></script>
+    <script src="./js/burguer.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,10 +21,13 @@
             <h1 class="logo-title">PopCornRoom</h1>
             <img src="./images/popcorn.png" alt="Foto de uma pipoca">
         </div>
+      
         <nav class="menu-container">
-            <a href="/" onclick="route()">Home</a>
-            <a href="/filmes" onclick="route()">Filmes</a>
-            <a href="/generos" onclick="route()">Gêneros</a>
+
+                <a href="/" onclick="route()">Home</a>
+                <a href="/filmes" onclick="route()">Filmes</a>
+                <a href="/generos" onclick="route()">Gêneros</a>
+
         </nav>
 
         <div class="credits-container">
@@ -31,9 +36,19 @@
     </header>
     <main id="root">
         <div class="home-container">
-            <h2 class="home-title"> PopCornRoom</h2>
-            <img src="./images/popcorn.png" alt="Foto de uma pipoca">
-            <span class="home-text">Existem muitos sites na internet que oferecem acesso a uma ampla variedade de filmes, desde os clássicos até as últimas produções lançadas nos cinemas. Mas imagine um site que não só ofereça uma grande seleção de filmes, mas também facilite a busca pelo seu próximo filme favorito.   </span>
+            <div class="home-logo">
+                <h2 class="home-title"> PopCornRoom</h2>
+                <img class="foto-pipoca" src="./images/popcorn.png" alt="Foto de uma pipoca">
+            </div>
+
+            <div class="home-logo">
+                <div class="home-text">Existem muitos sites na internet que oferecem acesso a uma ampla variedade de filmes, desde os clássicos até as últimas produções lançadas nos cinemas. Mas imagine um site que não só ofereça uma grande seleção de filmes, mas também facilite a busca pelo seu próximo filme favorito.   </div>
+
+            <div class="home-text">Esse site foi feito utilizando a API do The Movie Data Base</div>
+
+            <a href="https://developers.themoviedb.org/3/getting-started/introduction" target="blank_"> Saber mais</a>
+            </div>
+            
 
             
 
